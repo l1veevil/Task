@@ -1,0 +1,3 @@
+﻿  zada4a18.cpp
+C:\Users\Max\source\repos\zada4a18\zada4a18.cpp(9,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  zada4a18.vcxproj -> C:\Users\Max\source\repos\zada4a18\Debug\zada4a18.exe
