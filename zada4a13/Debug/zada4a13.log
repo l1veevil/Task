@@ -1,0 +1,3 @@
+﻿  zada4a13.cpp
+C:\Users\Max\source\repos\zada4a13\zada4a13.cpp(16,10): warning C4244:  =: преобразование "double" в "int", возможна потеря данных
+  zada4a13.vcxproj -> C:\Users\Max\source\repos\zada4a13\Debug\zada4a13.exe
