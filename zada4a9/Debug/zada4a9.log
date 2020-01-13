@@ -1,0 +1,4 @@
+﻿  zada4a9.cpp
+C:\Users\Max\source\repos\zada4a9\zada4a9.cpp(9,20): warning C4101:  c: неиспользованная локальная переменная
+C:\Users\Max\source\repos\zada4a9\zada4a9.cpp(9,12): warning C4101:  n: неиспользованная локальная переменная
+  zada4a9.vcxproj -> C:\Users\Max\source\repos\zada4a9\Debug\zada4a9.exe
