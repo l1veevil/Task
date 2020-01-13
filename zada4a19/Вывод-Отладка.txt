@@ -1,0 +1,19 @@
+﻿"zada4a19.exe" (Win32). Загружено "C:\Users\Max\source\repos\zada4a19\Debug\zada4a19.exe". Символы загружены.
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\ntdll.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\kernel32.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\KernelBase.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\msvcp140d.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\vcruntime140d.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\ucrtbased.dll". 
+Ошибка: не удалось открыть файл C:\Users\Max\source\repos\zada4a19\Debug\zada4a19.obj. Код ошибки = 0x80070002.Ошибка: не удалось найти "C:\Users\Max\source\repos\zada4a19\Debug\zada4a19.obj". Сборка zada4a19.exe была выполнена с /DEBUG:FASTLINK, для которого требуются файлы объектов для отладки.
+Поток 0x464 завершился с кодом 0 (0x0).
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\kernel.appcore.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\msvcrt.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\rpcrt4.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\sspicli.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\cryptbase.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\bcryptprimitives.dll". 
+"zada4a19.exe" (Win32). Загружено "C:\Windows\SysWOW64\sechost.dll". 
+Поток 0xeb4 завершился с кодом 0 (0x0).
+Поток 0x14b4 завершился с кодом 0 (0x0).
+Программа "[3108] zada4a19.exe" завершилась с кодом 0 (0x0).

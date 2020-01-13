@@ -1,0 +1,4 @@
+﻿  zada4a21.cpp
+C:\Users\Max\source\repos\zada4a21\zada4a21.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Max\source\repos\zada4a21\zada4a21.cpp(11,20): warning C4101: t: неиспользованная локальная переменная
+  zada4a21.vcxproj -> C:\Users\Max\source\repos\zada4a21\Debug\zada4a21.exe
