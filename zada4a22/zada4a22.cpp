@@ -10,15 +10,20 @@ void swap(int*a, int*b) {
 }
 
 int msort(int* a, int* b, int* c) {
-    if (*a > *b and *a > *c) return *a;
-    else if (*b > *a and *b > *c) return *b;
-    else if (*c > *b and *c > *a)return *c;
+    if (*a > * b) {
+        swap(a,b);
+    }
+    if (*b > * c) {
+        swap(b, c);
+    }
+    if (*a > * b) {
+        swap(a, b);
+    }
+    return *c;
 }
 
-void info(const int* a, const int* b, const int* c) {
+void info(const int* a) {
     cout << "Адрес: " << a << " " << "Значение: " << *a << endl;
-    cout << "Адрес: " << b << " " << "Значение: " << *b << endl;
-    cout << "Адрес: " << c << " " << "Значение: " << *c << endl;
 }
 
 int* add(int* a, const int* с) {
@@ -32,11 +37,14 @@ int main(){
     int b = 2;
     int c = 3;
 
-    
-    info(&a, &b, &c);
-    swap(&a, &b);
+    info(&a);
+    info(&b);
+    info(&c);
     cout << "Максимум: " << msort(&a, &b, &c) << endl;
-    cout << add(&a, &c) << " " << *add(&a, &c);
+    info(add(add(&a, &b), &c));
+    
+    
+    
    
 }
 
