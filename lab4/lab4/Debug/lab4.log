@@ -1,0 +1,5 @@
+﻿  game.cpp
+C:\Users\Max\source\repos\lab4\lab4\game.cpp(11,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Max\source\repos\lab4\lab4\game.cpp(39,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Max\source\repos\lab4\lab4\game.cpp(181,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab4.vcxproj -> C:\Users\Max\source\repos\lab4\Debug\lab4.exe
