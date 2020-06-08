@@ -184,7 +184,9 @@ bool is_zero(people* man) {
 
 int main() {
     setlocale(LC_ALL, "Russian");
+    ofstream out;
     ifstream in("train.csv");
+    out.open("mess.txt");
     char buf[250];
     int surv = 0, first = 0, second = 0, third = 0, male = 0, female = 0;
     int age = 0, m_age = 0, w_age = 0, all_m = 0, all_w = 0;
@@ -198,7 +200,7 @@ int main() {
         if (!is_zero(&ma)) break;
         else {
             if (ma.age) {
-                if (ma.age <= 18) cout << ma.id << " ";
+                if (ma.age <= 18) out << ma.id << " ";
                 age += ma.age;
                 if (ma.people_sex) {
                     switch (ma.people_sex) {
@@ -255,15 +257,26 @@ int main() {
     }
     in.close();
 
-    cout << endl << "Выжившие " << surv << "   из них м " << male << "   ж " << female << endl;
-    cout << "Первый класс " << first << "   второй " << second << "    третий " << third << endl;
-    cout << "Средний возраст " << age / (all_m + all_w) << "   м " << m_age / all_m << "   ж " << w_age / all_w << endl;
-    
-    if (q == max(q, max(s, c))) cout << "Queenstown";
-    else if (c == max(q, max(s, c))) cout << "Cherbourg";
-    else if (s == max(q, max(s, c))) cout << "Southampton";
 
+    out << "\nОбщее число выживших: " << surv << endl;
+    out << "Число выживших из 1 класса: " << first << endl;
+    out << "Число выживших из 2 класса: " << second << endl;
+    out << "Число выживших из 3 класса: " << third << endl;
+    out << "Количество выживших женщин: " << female << endl;
+    out << "Количество выживших мужчин: " << male << endl;    
+    out << "Средний возраст: " << age / (all_m + all_w) << endl;
+    out << "Средний возраст мужчин: " << m_age / all_m << endl;
+    out << "Средний возраст женщин: " << w_age / all_w << endl;
+    out << "Штат, в котором село больше всего пассажиров: ";
+
+    if (q == max(q, max(s, c))) out << "Queenstown" << endl;
+    else if (c == max(q, max(s, c))) out << "Cherbourg" << endl;
+    else if (s == max(q, max(s, c))) out << "Southampton" << endl; 
+
+    out.close();
+    
     return 0;
+
 }
 ```
 
